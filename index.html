@@ -1,0 +1,115 @@
+<!-- файлы с приставкой "_" не отправляются на сборку и игнорируются gulp, их нужно подключать вручную(как в index.html) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Работа для портфолио</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Подключение минимизированных версий стилей:  -->
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <!-- полные версии также сохраняются в папке сборки -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+    <div class="container">
+        <div class="header__body">
+            <div class="header__top top-header">
+                <div class="top-header__content">
+                    <div class="top-header__column">
+                        <div class="top-header__tagline">
+                           <p>We Ship Everywhere!</p>
+                           <p>Free In The Us!</p>
+                        </div>
+                        <div class="top-header__buttons actions__buttons button button_adaptive">
+                            
+                        </div>
+                    </div>
+                    <div class="top-header__column">
+                        <div class="top-header__logo logo">
+                            <img src="assets/img/logo.png" alt="logo">
+                        </div>
+                    </div>
+                    <div class="top-header__column">
+                        <div class="top-header__actions actions">
+                            <ul class="top-header__list actions__list">
+                                <li data-da="menu-burger__list, 633, 1"><a href="#">Login</a></li>
+                                <li data-da="menu-burger__list, 545, 2"><a href="#">Register</a></li>
+                                <li data-da="menu-burger__list, 880, 3"><a href="#">Whish List (<span>0</span>)</a></li>
+                            </ul>
+                            <div class="top-header__buttons actions__buttons button">
+                                <a class="button__item" data-da="button_adaptive, 419, last"  href="#">
+                                    <svg class="icon icon__search">
+                                        <use xlink:href="assets/img/icons/icons.svg#search"></use>
+                                    </svg>
+                                </a>
+                                <a class="button__item" data-da="menu-burger__list, 419, first" href="#">
+                                    <svg class="icon icon__bag">
+                                        <use xlink:href="assets/img/icons/icons.svg#bag"></use>
+                                    </svg>
+                                </a>
+                                <div class="button__item">
+                                    <div class="menu-toggle" id="menu-toggle"><span></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom bottom-header">
+                <div class="bottom-header__content">
+                    <div class="bottom-header__menu menu">
+                        <nav class="menu__body">
+                            <ul class="bottom-header__list menu__list">
+                                <li><a class="active" href="#">Home</a></li>
+                                <li data-da="menu-burger__list, 602, last"><a href="#">Vintage</a></li>
+                                <li data-da="menu-burger__list, 602, last"><a href="#">Imperial</a></li>
+                                <li data-da="menu-burger__list, 602, last"><a href="#">Sparkling</a></li>
+                                <li data-da="menu-burger__list, 602, last"><a href="#">Accessories</a></li>
+                                <li data-da="menu-burger__list, 410, last"><a href="#">Blog</a></li>
+                                <li data-da="menu-burger__list, 337, last"><a href="#">Product Details</a></li>
+                                <li ><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="header__menu-burger menu-burger">
+                <div class="menu-burger__logo logo">
+                    <img src="assets/img/logo.png" alt="logo">
+                </div>
+                <div class="menu-burger__actions actions">
+                    <ul class="menu-burger__list actions__list">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</header>
+    <!-- Подключение минимизированных версий скриптов: -->
+    <script src="assets/js/script.min.js"></script>
+    <!-- полные версии также сохраняются в папке сборки -->
+    <main>
+        <section class="section">
+            <div class="main-page">
+                <div class="main-page__body">
+                    <div class="container">
+                        <div class="main-page__title"><h2>The Experlence of Generations</h2></div>
+                        <div class="main-page__subtitle"><h3>In each <span>bottle</span></h3></div>
+                        <div class="main-page__about"><p>Experience a true “American Dream” at Winehouse and visit the first tasting room in the United States established by a former European mirgant vineyard worker and his family.</p></div>
+                        <div class="main-page__more"><a href="#">Read more</a></div>
+                        <div class="main-page__image"><img src="assets/img/main-page.png" alt="image"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
